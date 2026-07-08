@@ -163,6 +163,7 @@
             btnGrabar.TabIndex = 16;
             btnGrabar.Text = "Grabar";
             btnGrabar.UseVisualStyleBackColor = true;
+            btnGrabar.Click += btnGrabar_Click;
             // 
             // btnLimpiar
             // 
@@ -173,6 +174,7 @@
             btnLimpiar.TabIndex = 17;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // btnSalir
             // 
@@ -183,6 +185,7 @@
             btnSalir.TabIndex = 18;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // frmRegistroEstudiantes
             // 
